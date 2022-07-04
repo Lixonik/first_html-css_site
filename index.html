@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=`, initial-scale=1.1">
+  <meta name="keywords" content="Сайт-резюме, резюме, resume, cv">
+  <meta name="description" content="Это сайт-резюме Прохорова Бориса.">
+  <title>Resume</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+
+<body>
+  <div class="container">
+    <section class="info">
+      <img src="lore_sketchy.gif" alt="https://sun9-25.userapi.com/impg/xdxpRt5EKm7ZYGMqhjCXGWcuGcC36bZ24ZCEeA/dlaNrdxZE0k.jpg?size=2157x2160&quality=96&sign=80ae9448d4703f29e9a48ec4c7c30e5d&type=album" class="avatar">
+      <div class="info-text">
+        <h1>Борис Прохоров</h1>
+        <p>
+          Я студент <strong>СПБГЭТУ "ЛЭТИ"</strong>.
+        </p>
+
+        Увлекаюсь <em>программированием и спортом</em>.
+
+        <section class="card links">
+          <p><strong>Список социальных сетей:</strong></p>
+
+          <nav>
+            <a href="https://vk.com/id155762639" target="_blank">vk</a> |
+            <a href="https://steamcommunity.com/id/155762639/" target="_blank">steam</a>
+          </nav>
+
+        </section>
+
+      </div>
+    </section>
+    <section class="card hobbies">
+      <h2>Мои хобби</h2>
+      <ol class="hobbies">
+        <li>Бег</li>
+        <li>Изучение HTML & CSS</li>
+        <li>Плавание</li>
+        <li>Пинг-понг</li>
+      </ol>
+    </section>
+    <br>
+    <section class="card experience">
+      <h2>Опыт работы</h2>
+      <table class="exp">
+        <thead>
+          <tr>
+            <th>Название</th>
+            <th>Должость</th>
+            <th>Год</th>
+          </tr>
+          <tbody>
+            <tr>
+              <td>EPAM</td>
+              <td>Software Engineer</td>
+              <td>2016-2017</td>
+            </tr>
+            <tr>
+              <td>LPTracker</td>
+              <td>Frontend</td>
+              <td>2017-2019</td>
+            </tr>
+            <tr>
+              <td>VK</td>
+              <td>Frontend</td>
+              <td>2019-2021</td>
+            </tr>
+          </tbody>
+        </thead>
+      </table>
+    </section>
+    <br>
+    <footer class="card contact">
+      <h2>Связаться со мной</h2>
+      <form action="">
+        <div class="contact-row">
+          <div class="contact-group">
+            <label for="name">Ваше имя: </label>
+            <input type="text" id="name" placeholder="Введите имя">
+          </div>
+
+          <div class="contact-group">
+            <label for="email">Ваш email: </label>
+            <input type="email" id="email" placeholder="Введите email">
+          </div>
+        </div>
+
+        <div class="contact-group">
+          <label for="message">Ваше сообщение:</label>
+          <br>
+          <textarea name="message" id="message" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+
+        <button type="submit" class="btn">Отправить!</button>
+      </form>
+    </footer>
+  </div>
+</body>
+
+</html>
